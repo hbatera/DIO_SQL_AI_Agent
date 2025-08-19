@@ -30,8 +30,6 @@ Este projeto está estruturado em torno de um banco de dados fictício, contendo
 4. **Pagamentos** – Registra os pagamentos realizados pelos clientes, com informações sobre o valor e a data de pagamento.
 
 ### **Relacionamentos entre as Tabelas**
-![delta](img/DER.png)
-
 
 As tabelas possuem as seguintes relações:
 - **Clientes ↔ Endereços**: A tabela de endereços é ligada à tabela de clientes através do campo `cliente_id`.
